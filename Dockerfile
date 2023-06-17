@@ -1,5 +1,5 @@
 mssql:
-    image: 'mcr.microsoft.com/mssql/server'
+    image: 'mcr.microsoft.com/mssql/server:2022-latest'
     ports:
         - '1433:1433'
     environment:
