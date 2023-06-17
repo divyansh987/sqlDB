@@ -1,4 +1,4 @@
-FROM microsoft/mssql-server-linux:latest
+FROM mcr.microsoft.com/mssql/server:2022-latest
 
 RUN apt-get update && apt-get install -y  \
 	curl \
